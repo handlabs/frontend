@@ -7,7 +7,7 @@ export default function Home() {
             <Image src={"/logo_handlabs.png"} alt="" width={57} height={73}/>
             <h1 className="font-bold text-6xl text-center">Handlabs</h1>
         </div>
-        <p className="text-scenter">En cours de développement.</p>
+        <p className="text-center">En cours de développement.</p>
     </div>
   );
 }
