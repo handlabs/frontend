@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 body {
-    background-color: #E9F3FF;
+    background: linear-gradient(180deg, #E9F3FF 0%, #FFFFFF 50%, #FFFFFF 100%) no-repeat;
+    /* background-color: var(--color-bg-main); */
+}
+
+@theme {
+    --color-main: #CFAF6E;
+    --color-title: #0E2440;
+    --color-subtitle: #4B5563;
+    --color-bg-main:#E9F3FF;
 }
